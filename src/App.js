@@ -1,23 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div style={{ width: "100%", height: "100%" }}>
+      <iframe
+        src="https://www.youtube.com/embed/ZUPL69dox-4"
+        title="Embedded Convai Character"
+        style={{ width: "100%", height: "100%", border: "none" }}
+        allow="autoplay; encrypted-media"
+        allowFullScreen
+      />
     </div>
   );
 }
